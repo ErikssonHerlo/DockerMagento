@@ -8,16 +8,16 @@ use Magento\Framework\Controller\Result\Redirect;
 class Index implements HttpGetActionInterface
 {
     public function __construct(
-        //private ForwardFactory $forwardFactory,
-        private RedirectFactory $redirectFactory
+        private ForwardFactory $forwardFactory,
+        //private RedirectFactory $redirectFactory
      ) {}
-     public function execute(): Redirect
+     public function execute(): Forward
      {
         /** @var Forward $forward */
-        $redirect = $this->redirectFactory->create();
-        // $forward = $this->forwardFactory->create();
-        //return $forward->setController('post')->forward('list');
-        return $redirect->setPath('blog/post/list');
+        //$redirect = $this->redirectFactory->create();
+        $forward = $this->forwardFactory->create();
+        return $forward->setController('post')->forward('list');
+        //return $redirect->setPath('blog/post/list');
      }
 
     
