@@ -1,6 +1,6 @@
 {
-    "name": "MaxiCompra/module-blog",
-    "description": "Just another module for magento2",
+    "name": "MaxiCompra/module-CategoryImport",
+    "description": "maxicompra",
     "type": "magento2-module",
     "license": "proprietary",
     "authors": [
@@ -16,7 +16,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Maxicompra\\Blog\\": ""
+            "Maxicompra\\CategoryImport\\": ""
         }
     }
 }
