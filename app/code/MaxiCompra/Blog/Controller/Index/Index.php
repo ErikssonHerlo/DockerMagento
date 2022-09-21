@@ -13,11 +13,11 @@ class Index implements HttpGetActionInterface
      ) {}
      public function execute(): Redirect
      {
-         /** @var Forward $forward */
-         $redirect = $this->redirectFactory->create();
+        /** @var Forward $forward */
+        $redirect = $this->redirectFactory->create();
         // $forward = $this->forwardFactory->create();
-         //return $forward->setController('post')->forward('list');
-         return $redirect->setPath('blog/post/list');
+        //return $forward->setController('post')->forward('list');
+        return $redirect->setPath('blog/post/list');
      }
 
     
