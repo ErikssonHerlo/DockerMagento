@@ -4,7 +4,7 @@ use Magento\Framework\Controller\ResultFactory;
 use Magento\Framework\Setup\InstallDataInterface;
 use Magento\Framework\Setup\ModuleContextInterface;
 use Magento\Framework\Setup\ModuleDataSetupInterface;
-class Index extends \Magento\Framework\App\Action\Action
+class Importcategory extends \Magento\Framework\App\Action\Action
 {
     protected $_pageFactory;
     protected $_categoryFactory;
