@@ -13,7 +13,7 @@ class ListAction implements HttpGetActionInterface
     )  {}
     public function execute(): Page
     {
-        print_r('Esta es una prueba');
+        
         //echo '<pre>';
         //var_dump($this->session->getData());
         //exit;
