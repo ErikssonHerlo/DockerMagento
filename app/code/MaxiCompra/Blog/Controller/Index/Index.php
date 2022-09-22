@@ -17,7 +17,7 @@ class Index implements HttpGetActionInterface
         //$redirect = $this->redirectFactory->create();
         $forward = $this->forwardFactory->create();
         return $forward->setController('post')->forward('list');
-        //return $redirect->setPath('blog/post/list');
+        // return $redirect->setPath('blog/post/list');
      }
 
     
