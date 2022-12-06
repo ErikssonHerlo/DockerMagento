@@ -1,0 +1,22 @@
+{
+    "name": "MaxiCompra/module-CategoryImport",
+    "description": "maxicompra",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "eriksson_herlo",
+            "email": "ehernandez@maxicompra.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Maxicompra\\CategoryImport\\": ""
+        }
+    }
+}

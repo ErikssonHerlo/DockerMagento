@@ -1,0 +1,22 @@
+{
+    "name": "MaxiCompra/module-blog",
+    "description": "Just another module for magento2",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "eriksson_herlo",
+            "email": "ehernandez@maxicompra.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Maxicompra\\Blog\\": ""
+        }
+    }
+}
