@@ -13,6 +13,7 @@
             "magento/*": true,
             "magento/magento-composer-installer": true,
             "magento/inventory-composer-installer": true
+
         },
         "preferred-install": "dist",
         "sort-packages": true
